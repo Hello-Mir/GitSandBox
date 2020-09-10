@@ -7,4 +7,8 @@ class Table (val a: Int, val b: Int) {
     fun printDifference(){
         print(b-a)
     }
+
+    fun printAuthor(name: String){
+        print(name)
+    }
 }
